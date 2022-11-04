@@ -20,7 +20,7 @@ func add(int1: Int?, int2: Int?) -> Int? {
     guard let Integer1 = int1, let Integer2 = int2 else {
         return nil
     }
-    return int1? + int2?
+    return Integer1 + Integer2
 }
 
 let bru = add(int1: 2, int2: 3)
